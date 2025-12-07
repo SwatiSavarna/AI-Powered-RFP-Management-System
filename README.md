@@ -113,9 +113,12 @@ Email Solution: SMTP, IMAP
 
 
 ## 4. Designs & Assumptions
-a. Key Design Decision - In this project I have used MVC Architecture which is favourable as it is efficient and easy to understand.For Scoring the best vendors i have tried to use a rating system on a 1-5 scale.
+4.a. Key Design Decisions
+Architecture: The project follows the Model-View-Controller (MVC) Architecture, which promotes separation of concerns, efficiency, and maintainability.
 
-b.Assumptions - The Schemas are designed focusing on the important fields needed for the project.
+Scoring System: Vendor scoring is implemented using a simple 1-5 rating system for key metrics. This structured output is then fed to the AI model for final, comprehensive ranking and justification.
+
+b. Schema Design: The Mongoose schemas are designed to focus strictly on the essential fields required to support the core functionality of RFP management, proposal processing, and vendor comparison.
 
 ## 5. AI Tools Usage
 ###  Configuring Ollama
